@@ -12,16 +12,30 @@
   <remote  name="cm"
            fetch="https://github.com/"
            review="review.cyanogenmod.com" />
+           
+  <remote  name="iokp"
+           fetch="https://github.com/" />
 
   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/"
            review="http://review.omapzoom.org/" />
 
+  <remote  name="muppets"
+           fetch="https://github.com/"
+           review="review.cyanogenmod.com" />
+
+  <remote  name="xplodwild"
+           fetch="https://github.com/" />
+
+  <remote  name="omnirom"
+           fetch="https://github.com/"
+           review="gerrit.omnirom.org" />
+
   <default revision="refs/tags/android-4.3.1_r1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="AOKP/build" remote="aokp" revision="jb-mr2" groups="pdk">
+  <project path="build" name="IOKP/build" remote="iokp" revision="jb-mr2" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk"/>
@@ -90,8 +104,6 @@
   <project path="device/samsung/i9100g" name="AOKP/device_samsung_i9100g" remote="aokp" revision="jb-mr2" groups="notdefault,device,i9100g" />
   <project path="device/samsung/i9300" name="AOKP/device_samsung_i9300" remote="aokp" revision="jb-mr2" groups="notdefault,device,i9300" />
   <project path="device/samsung/jf-common" name="AOKP/device_samsung_jf-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,jf,jfltespr,jfltetmo,jflteusc,jfltevzw" />
-  <project path="device/samsung/jfltecri" name="AOKP/device_samsung_jfltecri" remote="aokp" revision="jb-mr2" groups="notdefault,device,jf,jfltecri" />
-  <project path="device/samsung/jfltecsp" name="AOKP/device_samsung_jfltecsp" remote="aokp" revision="jb-mr2" groups="notdefault,device,jf,jfltecsp" />
   <project path="device/samsung/jfltespr" name="AOKP/device_samsung_jfltespr" remote="aokp" revision="jb-mr2" groups="notdefault,device,jf,jfltespr" />
   <project path="device/samsung/jfltetmo" name="AOKP/device_samsung_jfltetmo" remote="aokp" revision="jb-mr2" groups="notdefault,device,jf,jfltetmo" />
   <project path="device/samsung/jflteusc" name="AOKP/device_samsung_jflteusc" remote="aokp" revision="jb-mr2" groups="notdefault,device,jf,jflteusc" />
@@ -167,6 +179,7 @@
   <project path="external/f2fs-tools" name="AOKP/external_f2fs-tools" remote="aokp" revision="jb-mr2" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
+  <project path="external/Focal" name="xplodwild/android_external_Focal" remote="xplodwild" revision="master" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" remote="cm" revision="cm-10.2" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="cm" revision="cm-10.2" />
@@ -300,7 +313,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb-mr2" groups="pdk" />
-  <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="jb-mr2" />
+  <project path="frameworks/base" name="IOKP/frameworks_base" remote="iokp" revision="jb-mr2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -391,11 +404,13 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="AOKP/packages_apps_Contacts" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/ContactsCommon" name="AOKP/packages_apps_ContactsCommon" remote="aokp" revision="jb-mr2" />
+  <project path="packages/apps/DashClock" name="omnirom/android_packages_apps_DashClock" remote="omnirom" revision="android-4.3" />
   <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/Dialer" name="AOKP/packages_apps_Dialer" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/Email" name="AOKP/packages_apps_Email" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/Focal" name="xplodwild/android_packages_apps_Focal" remote="xplodwild" revision="cm-10.2" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="AOKP/packages_apps_Gallery2" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
@@ -412,9 +427,9 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" revision="jb-mr2" />
+  <project path="packages/apps/ROMControl" name="IOKP/packages_apps_ROMControl" remote="iokp" revision="jb-mr2" />
   <project path="packages/apps/QuickSearchBox" name="AOKP/packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr2" />
-  <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" revision="jb-mr2" />
+  <project path="packages/apps/Settings" name="IOKP/packages_apps_Settings" remote="iokp" revision="jb-mr2" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -503,8 +518,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 -->
-  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="jb-mr2" />
-  <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb-mr2" />
+  <project path="vendor/iokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb-mr2" />
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="jb-mr2" groups="notdefault,vendor,htc" />
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="jb-mr2" groups="notdefault,vendor,lge" />
   <project path="vendor/motorola" name="AOKP/vendor_motorola" remote="aokp" revision="jb-mr2" groups="notdefault,vendor,motorola" />
@@ -519,5 +533,9 @@
 
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr2" />
 
-  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="jb-mr2" />
+  <project path="platform_manifest" name="IOKP/platform_manifest" remote="iokp" revision="jb-mr2" />
+
+  <project path="vendor/iokp" name="IOKP/vendor_iokp" remote="iokp" revision="jb-mr2" >
+      <copyfile src="tools/build.sh" dest="build.sh" />
+  </project>
 </manifest>
