@@ -111,6 +111,7 @@
   <project path="device/samsung/jflteusc" name="AOKP/device_samsung_jflteusc" remote="aokp" revision="jb-mr2" groups="notdefault,device,jf,jflteusc" />
   <project path="device/samsung/jfltevzw" name="AOKP/device_samsung_jfltevzw" remote="aokp" revision="jb-mr2" groups="notdefault,device,jf,jfltevzw" />
   <project path="device/samsung/jfltecan" name="IOKP/device_samsung_jfltecan" remote="iokp" revision="cm-10.2" groups="notdefault,device,jf,jfltecan" />
+  <project path="device/samsung/jflteatt" name="IOKP/device_samsung_jflteatt" remote="iokp" revision="cm-10.2" groups="notdefault,device,jf,jflteatt" />
   <project path="device/samsung/l900" name="AOKP/device_samsung_l900" remote="aokp" revision="jb-mr2" groups="notdefault,device,l900" />
   <project path="device/samsung/maguro" name="AOKP/device_samsung_maguro" remote="aokp" revision="jb-mr2" groups="notdefault,device,maguro" />
   <project path="device/samsung/manta" name="AOKP/device_samsung_manta" remote="aokp" revision="jb-mr2" groups="notdefault,device,manta" />
