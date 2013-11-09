@@ -418,7 +418,7 @@
   <project path="packages/apps/Focal" name="xplodwild/android_packages_apps_Focal" remote="xplodwild" revision="cm-10.2" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="AOKP/packages_apps_Gallery2" remote="aokp" revision="jb-mr2" />
-  <project path="packages/apps/Halo" name="IOKP/packages_apps_Halo" remote="iokp" revision="cm-10.2" />
+  <project path="packages/apps/HALO" name="IOKP/packages_apps_HALO" remote="iokp" revision="cm-10.2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="AOKP/packages_apps_Launcher2" remote="aokp" revision="jb-mr2" />
@@ -538,7 +538,6 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="AOKP/vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr2" />
   <project path="vendor/tmobile/providers/ThemeManager" name="AOKP/vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr2" />
 
-  <project path="packages/apps/HALO" name="IOKP/packages_apps_HALO" remote="iokp" revision="cm-10.2" />
   <project path="platform_manifest" name="IOKP/platform_manifest" remote="iokp" revision="jb-mr2" />
 
   <project path="vendor/iokp" name="IOKP/vendor_iokp" remote="iokp" revision="jb-mr2" >
