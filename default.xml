@@ -27,6 +27,10 @@
   <remote  name="xplodwild"
            fetch="https://github.com/" />
 
+  <remote  name="pa"
+           fetch="https://github.com/ParanoidAndroid"
+           review="gerrit.androidninjas.com:8181" />
+
   <remote  name="omnirom"
            fetch="https://github.com/"
            review="gerrit.omnirom.org" />
@@ -103,7 +107,7 @@
   <project path="device/samsung/i9100" name="AOKP/device_samsung_i9100" remote="aokp" revision="jb-mr2" groups="notdefault,device,i9100" />
   <project path="device/samsung/i9100g" name="AOKP/device_samsung_i9100g" remote="aokp" revision="jb-mr2" groups="notdefault,device,i9100g" />
   <project path="device/samsung/i9300" name="AOKP/device_samsung_i9300" remote="aokp" revision="jb-mr2" groups="notdefault,device,i9300" />
-  <project path="device/samsung/jf-common" name="AOKP/device_samsung_jf-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,jf,jfltespr,jfltetmo,jflteusc,jfltevzw" />
+  <project path="device/samsung/jf-common" name="AOKP/device_samsung_jf-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,jf,jfltespr,jfltetmo,jflteusc,jfltevzw,jflteatt,jfltecan" />
   <project path="device/samsung/jfltecri" name="AOKP/device_samsung_jfltecri" remote="aokp" revision="jb-mr2" groups="notdefault,device,jf,jfltecri" />
   <project path="device/samsung/jfltecsp" name="AOKP/device_samsung_jfltecsp" remote="aokp" revision="jb-mr2" groups="notdefault,device,jf,jfltecsp" />
   <project path="device/samsung/jfltespr" name="AOKP/device_samsung_jfltespr" remote="aokp" revision="jb-mr2" groups="notdefault,device,jf,jfltespr" />
@@ -113,12 +117,15 @@
   <project path="device/samsung/jfltecan" name="IOKP/device_samsung_jfltecan" remote="iokp" revision="cm-10.2" groups="notdefault,device,jf,jfltecan" />
   <project path="device/samsung/jflteatt" name="IOKP/device_samsung_jflteatt" remote="iokp" revision="cm-10.2" groups="notdefault,device,jf,jflteatt" />
   <project path="device/samsung/l900" name="AOKP/device_samsung_l900" remote="aokp" revision="jb-mr2" groups="notdefault,device,l900" />
+  <project path="device/samsung/n8013" name="IOKP/device_samsung_n8013" remote="iokp" revision="jb-mr2" groups="notdefault,device,n8000" />
+  <project path="device/samsung/n8000" name="IOKP/device_samsung_n8000" remote="iokp" revision="jb-mr2" groups="notdefault,device,n8013" />
+  <project path="device/samsung/n80xx-common" name="IOKP/device_samsung_n80xx-common" remote="iokp" revision="jb-mr2" groups="notdefault,device,n8000,n8013" />
   <project path="device/samsung/maguro" name="AOKP/device_samsung_maguro" remote="aokp" revision="jb-mr2" groups="notdefault,device,maguro" />
   <project path="device/samsung/manta" name="AOKP/device_samsung_manta" remote="aokp" revision="jb-mr2" groups="notdefault,device,manta" />
   <project path="device/samsung/msm8660-common" name="AOKP/device_samsung_msm8660-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,hercules" />
-  <project path="device/samsung/msm8960-common" name="AOKP/device_samsung_msm8960-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jflteusc,jfltevzw" />
+  <project path="device/samsung/msm8960-common" name="AOKP/device_samsung_msm8960-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jflteusc,jfltevzw,jflteatt,jfltecan" />
   <project path="device/samsung/omap4-common" name="CyanogenMod/android_device_samsung_omap4-common" remote="cm" revision="cm-10.2" groups="notdefault,device,i9100g" />
-  <project path="device/samsung/qcom-common" name="AOKP/device_samsung_qcom-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jflteusc,jfltevzw,hercules" />
+  <project path="device/samsung/qcom-common" name="AOKP/device_samsung_qcom-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jflteusc,jfltevzw,jflteatt,jfltecan,hercules" />
   <project path="device/samsung/smdk4412-common" name="AOKP/device_samsung_smdk4412-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,t0lte,t0lteatt,t0ltetmo,i605,l900" />
   <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-10.2" groups="notdefault,device,t0lte,t0lteatt,t0ltetmo,i605,l900" />
   <project path="device/samsung/t0lte" name="AOKP/device_samsung_t0lte" remote="aokp" revision="jb-mr2" groups="notdefault,device,t0lte,t0lteatt,t0ltetmo,i605,l900" />
@@ -389,7 +396,7 @@
   <project path="kernel/samsung/msm8660-common" name="CyanogenMod/android_kernel_samsung_msm8660-common" remote="cm" revision="cm-10.2" groups="notdefault,kernel,hercules" />
   <project path="kernel/samsung/smdk4210" name="CyanogenMod/android_kernel_samsung_smdk4210" remote="cm" revision="cm-10.1" groups="notdefault,kernel,i9100" />
   <project path="kernel/samsung/smdk4412" name="AOKP/kernel_samsung_smdk4412" remote="aokp" revision="jb-mr2" groups="notdefault,kernel,t0lte,t0lteatt,t0ltetmo,i605,i9300,l900" />
-  <project path="kernel/samsung/jf" name="AOKP/kernel_samsung_jf" remote="aokp" revision="jb-mr2" groups="notdefault,kernel,jf,jfltespr,jfltetmo,jflteusc,jfltevzw" />
+  <project path="kernel/samsung/jf" name="AOKP/kernel_samsung_jf" remote="aokp" revision="jb-mr2" groups="notdefault,kernel,jf,jfltespr,jfltetmo,jflteusc,jfltevzw,jfltecan,jflteatt" />
   <project path="kernel/samsung/t1" name="CyanogenMod/android_kernel_samsung_t1" remote="cm" revision="cm-10.2" groups="notdefault,kernel,t1" />
   <project path="kernel/samsung/tuna" name="kernel/omap" remote="aosp" revision="android-omap-tuna-3.0-jb-mr2" groups="notdefault,kernel,maguro,toro,toroplus" />
   <project path="kernel/sony/apq8064" name="CyanogenMod/android_kernel_sony_apq8064" remote="cm" revision="cm-10.2" groups="notdefault,kernel,odin,pollux,pollux_windy,yuga" />
@@ -418,7 +425,6 @@
   <project path="packages/apps/Focal" name="xplodwild/android_packages_apps_Focal" remote="xplodwild" revision="cm-10.2" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="AOKP/packages_apps_Gallery2" remote="aokp" revision="jb-mr2" />
-  <project path="packages/apps/Halo" name="IOKP/packages_apps_Halo" remote="iokp" revision="cm-10.2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="AOKP/packages_apps_Launcher2" remote="aokp" revision="jb-mr2" />
@@ -513,6 +519,11 @@
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="AOKP/system_vold" remote="aokp" revision="jb-mr2" groups="pdk" />
+
+  <!-- PA -->
+  <project path="external/doclava" name="android_external_doclava" remote="pa" revision="jb43" />
+  <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="jb43" />
+
 <!--
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
