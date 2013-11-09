@@ -27,6 +27,10 @@
   <remote  name="xplodwild"
            fetch="https://github.com/" />
 
+  <remote  name="pa"
+           fetch="https://github.com/ParanoidAndroid"
+           review="gerrit.androidninjas.com:8181" />
+
   <remote  name="omnirom"
            fetch="https://github.com/"
            review="gerrit.omnirom.org" />
@@ -513,6 +517,11 @@
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="AOKP/system_vold" remote="aokp" revision="jb-mr2" groups="pdk" />
+
+  <!-- PA -->
+  <project path="external/doclava" name="android_external_doclava" remote="pa" revision="jb43" />
+  <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="jb43" />
+
 <!--
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
