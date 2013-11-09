@@ -538,6 +538,7 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="AOKP/vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr2" />
   <project path="vendor/tmobile/providers/ThemeManager" name="AOKP/vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr2" />
 
+  <project path="packages/apps/HALO" name="IOKP/packages_apps_HALO" />
   <project path="platform_manifest" name="IOKP/platform_manifest" remote="iokp" revision="jb-mr2" />
 
   <project path="vendor/iokp" name="IOKP/vendor_iokp" remote="iokp" revision="jb-mr2" >
