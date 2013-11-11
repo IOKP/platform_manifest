@@ -117,6 +117,9 @@
   <project path="device/samsung/jfltecan" name="IOKP/device_samsung_jfltecan" remote="iokp" revision="cm-10.2" groups="notdefault,device,jf,jfltecan" />
   <project path="device/samsung/jflteatt" name="IOKP/device_samsung_jflteatt" remote="iokp" revision="cm-10.2" groups="notdefault,device,jf,jflteatt" />
   <project path="device/samsung/l900" name="AOKP/device_samsung_l900" remote="aokp" revision="jb-mr2" groups="notdefault,device,l900" />
+  <project path="device/samsung/n8013" name="IOKP/device_samsung_n8013" remote="iokp" revision="jb-mr2" groups="notdefault,device,n8000" />
+  <project path="device/samsung/n8000" name="IOKP/device_samsung_n8000" remote="iokp" revision="jb-mr2" groups="notdefault,device,n8013" />
+  <project path="device_samsung_n80xx-common" name="IOKP/device_samsung_n80xx-common" remote="iokp" revision="jb-mr2" groups="notdefault,device,n8000,n8013" />
   <project path="device/samsung/maguro" name="AOKP/device_samsung_maguro" remote="aokp" revision="jb-mr2" groups="notdefault,device,maguro" />
   <project path="device/samsung/manta" name="AOKP/device_samsung_manta" remote="aokp" revision="jb-mr2" groups="notdefault,device,manta" />
   <project path="device/samsung/msm8660-common" name="AOKP/device_samsung_msm8660-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,hercules" />
