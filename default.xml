@@ -56,6 +56,7 @@
   <project path="development" name="platform/development" />
   <project path="device/acer/a510" name="AOKP/device_acer_a510" remote="aokp" revision="jb-mr2" groups="notdefault,device,a510" />
   <project path="device/acer/t30-common" name="AOKP/device_acer_t30-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,a510" />
+  <project path="device/asus/deb" name="IOKP/device_asus_deb" remote="iokp" revision="jb-mr2" groups="notdefault,device,deb" />
   <project path="device/asus/flo" name="AOKP/device_asus_flo" remote="aokp" revision="jb-mr2" groups="notdefault,device,flo" />
   <project path="device/asus/grouper" name="AOKP/device_asus_grouper" remote="aokp" revision="jb-mr2" groups="notdefault,device,grouper" />
   <project path="device/asus/tilapia" name="AOKP/device_asus_tilapia" remote="aokp" revision="jb-mr2" groups="notdefault,device,tilapia" />
@@ -380,7 +381,7 @@
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-10.2" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-10.2" />
   <project path="kernel/acer/t30" name="AOKP/kernel_acer_t30" remote="aokp" revision="jb-mr2" groups="notdefault,kernel,acer" />
-  <project path="kernel/asus/flo" name="IOKP/kernel_asus_flo" remote="iokp" revision="jb-mr2" groups="notdefault,kernel,flo" />
+  <project path="kernel/asus/flo" name="IOKP/kernel_asus_flo" remote="iokp" revision="jb-mr2" groups="notdefault,kernel,deb,flo" />
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" remote="cm" revision="cm-10.2" groups="notdefault,kernel,grouper" />
   <project path="kernel/asus/tf101" name="AOKP/kernel_asus_tf101" remote="aokp" revision="jb" groups="notdefault,kernel,tf101" />
   <project path="kernel/htc/m7" name="AOKP/kernel_htc_m7" remote="aokp" revision="jb-mr2" groups="notdefault,kernel,m7,m7att,m7spr,m7tmo,m7ul" />
@@ -396,7 +397,7 @@
   <project path="kernel/samsung/msm8660-common" name="CyanogenMod/android_kernel_samsung_msm8660-common" remote="cm" revision="cm-10.2" groups="notdefault,kernel,hercules" />
   <project path="kernel/samsung/smdk4210" name="CyanogenMod/android_kernel_samsung_smdk4210" remote="cm" revision="cm-10.1" groups="notdefault,kernel,i9100" />
   <project path="kernel/samsung/smdk4412" name="AOKP/kernel_samsung_smdk4412" remote="aokp" revision="jb-mr2" groups="notdefault,kernel,t0lte,t0lteatt,t0ltetmo,i605,i9300,l900" />
-  <project path="kernel/samsung/jf" name="AOKP/kernel_samsung_jf" remote="aokp" revision="jb-mr2" groups="notdefault,kernel,jf,jfltespr,jfltetmo,jflteusc,jfltevzw,jfltecan,jflteatt" />
+  <project path="kernel/samsung/jf" name="IOKP/kernel_samsung_jf" remote="iokp" revision="jb-mr2" groups="notdefault,kernel,jf,jfltespr,jfltetmo,jflteusc,jfltevzw,jfltecan,jflteatt" />
   <project path="kernel/samsung/t1" name="CyanogenMod/android_kernel_samsung_t1" remote="cm" revision="cm-10.2" groups="notdefault,kernel,t1" />
   <project path="kernel/samsung/tuna" name="kernel/omap" remote="aosp" revision="android-omap-tuna-3.0-jb-mr2" groups="notdefault,kernel,maguro,toro,toroplus" />
   <project path="kernel/sony/apq8064" name="CyanogenMod/android_kernel_sony_apq8064" remote="cm" revision="cm-10.2" groups="notdefault,kernel,odin,pollux,pollux_windy,yuga" />
@@ -543,7 +544,7 @@
   <project path="vendor/oppo" name="AOKP/vendor_oppo" remote="aokp" revision="jb-mr2" groups="notdefault,vendor,oppo" />
   <project path="vendor/samsung" name="IOKP/vendor_samsung" remote="iokp" revision="jb-mr2" groups="notdefault,vendor,samsung" />
   <project path="vendor/sony" name="AOKP/vendor_sony" remote="aokp" revision="jb-mr2" groups="notdefault,vendor,sony" />
-  <project path="vendor/asus" name="AOKP/vendor_asus" remote="aokp" revision="jb-mr2" groups="notdefault,vendor,asus" />
+  <project path="vendor/asus" name="IOKP/vendor_asus" remote="iokp" revision="jb-mr2" groups="notdefault,vendor,asus" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr2" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="AOKP/vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr2" />
