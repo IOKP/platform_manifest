@@ -550,13 +550,6 @@
 
   <project path="platform_manifest" name="IOKP/platform_manifest" remote="iokp" revision="jb-mr2" />
 
-  <!-- Voice Plus send messages Through Google  Voice -->
-
-  <project path="packages/apps/VoicePlus"         name="CyanogenMod/android_packages_apps_VoicePlus"          remote="cm"   revision="cm-10.2" />
-  <project path="external/koush/ion"              name="CyanogenMod/ion"                          remote="cm"   revision="cm-10.2" />
-  <project path="external/koush/AndroidAsync"     name="CyanogenMod/AndroidAsync"                 remote="cm"   revision="cm-10.2" />
-  <project path="external/gson"                   name="CyanogenMod/android_external_gson"        remote="cm"   revision="cm-10.2" />
-
   <project path="vendor/iokp" name="IOKP/vendor_iokp" remote="iokp" revision="jb-mr2" >
       <copyfile src="tools/build.sh" dest="build.sh" />
   </project>
