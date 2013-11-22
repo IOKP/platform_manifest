@@ -115,8 +115,8 @@
   <project path="device/samsung/jfltetmo" name="AOKP/device_samsung_jfltetmo" remote="aokp" revision="jb-mr2" groups="notdefault,device,jf,jfltetmo" />
   <project path="device/samsung/jflteusc" name="AOKP/device_samsung_jflteusc" remote="aokp" revision="jb-mr2" groups="notdefault,device,jf,jflteusc" />
   <project path="device/samsung/jfltevzw" name="AOKP/device_samsung_jfltevzw" remote="aokp" revision="jb-mr2" groups="notdefault,device,jf,jfltevzw" />
-  <project path="device/samsung/jfltecan" name="IOKP/device_samsung_jfltecan" remote="iokp" revision="cm-10.2" groups="notdefault,device,jf,jfltecan" />
-  <project path="device/samsung/jflteatt" name="IOKP/device_samsung_jflteatt" remote="iokp" revision="cm-10.2" groups="notdefault,device,jf,jflteatt" />
+  <project path="device/samsung/jfltecan" name="IOKP/device_samsung_jfltecan" remote="iokp" revision="jb-mr2" groups="notdefault,device,jf,jfltecan" />
+  <project path="device/samsung/jflteatt" name="IOKP/device_samsung_jflteatt" remote="iokp" revision="jb-mr2" groups="notdefault,device,jf,jflteatt" />
   <project path="device/samsung/l900" name="AOKP/device_samsung_l900" remote="aokp" revision="jb-mr2" groups="notdefault,device,l900" />
   <project path="device/samsung/n8013" name="IOKP/device_samsung_n8013" remote="iokp" revision="jb-mr2" groups="notdefault,device,n8000" />
   <project path="device/samsung/n8000" name="IOKP/device_samsung_n8000" remote="iokp" revision="jb-mr2" groups="notdefault,device,n8013" />
