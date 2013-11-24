@@ -6,7 +6,7 @@
            review="https://android-review.googlesource.com/" />
 
   <remote name="iokp"
-           fetch="https://github.com/"
+           fetch="https://github.com/" />
 
   <remote  name="aokp"
            fetch="https://github.com/"
